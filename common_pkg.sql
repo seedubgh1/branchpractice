@@ -7,5 +7,14 @@ create or replace package body common_pkg as
       l_chr := 'x';
 
     end func1;
+------------
+  function func2 (p_param varchar2) is
+    l_chr varchar2(10);
+   
+    begin
 
+      l_chr := '2';
+
+    end func2;
+------------
 end common_pkg;
