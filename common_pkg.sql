@@ -7,5 +7,4 @@ create or replace package body common_pkg as
       l_chr := 'x';
 
     end func1;
-
 end common_pkg;
